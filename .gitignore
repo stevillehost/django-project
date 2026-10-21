@@ -1,0 +1,89 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ==============================
+# Django
+# ==============================
+*.log
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# User-uploaded media
+media/
+
+# Collected static files
+staticfiles/
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# IDE and Editors
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==============================
+# macOS
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==============================
+# Build Files
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.bak
+*.temp
+
+# SQLite Database
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
