@@ -16,7 +16,7 @@ monthly_challenges = {
     "august": "Wake up before 7 AM every day",
     "september": "Spend at least 30 minutes learning something new every day",
     "october": "Avoid fast food for the entire month",
-    "november": "Write in a journal for at least 10 minutes a day",
+    "november": None,
     "december": "Spend no more than 30 minutes a day on social media"
 }
 
